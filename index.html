@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaif</title>
+  <link rel="icon" href="tlogo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/10038bb750.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="klogo.png" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Kaif</span><br> A Passionate</h1>
+                <span id="element"></span>
+            </div>
+        </div>
+
+
+    </div>
+    <!---------------------------------AB0UT------------------------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="kaiff2.png" alt="">
+
+                </div>
+                <div class="about-col-2">
+                  <h1 class="sub-tittle">  About Me</h1>
+                  <p>Hey,my name is Mohammed kaif and I use PrinceKaif10 as my nick name across Social medias. I'm a Graphic Designer, UX/UI Designer & Front-End Developer from India.I'm also passionate about Cricket and make potraits and i'm always curious to learn more when it comes to new Technologies and creative coding.</p>
+                  <div class="tab-tittles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab"id="Skills">
+                    <ul>
+                        <li><span>UI\UX</span> <br>Designing Web/App interfaces , Logos </li>
+                        <li><span>Web Developement</span><br>Languages I use: <br> Html , Css , JavaScript , Bootstrap , React , Mongo DB</li>
+                        <li><span>App Developement</span> <br>Languages i use : <br>
+                        Flutter with dart </li>                 </ul>
+                  </div>
+                  <div class="tab-contents " id="Experience">
+                    <ul>
+                        <li><span>Web Developement</span> <br>4 Weeks Intern in Qunatum Learnings <br>2 Weeks Intern In Jk Tooling</li>
+                        <li><span>Projects</span> <br>1. 3Tab Learnings <br>2. Industrial Website</li>
+                              
+                            </ul>
+                  </div>
+                  <div class="tab-contents"id="Education">
+                    <ul>
+                        <li><span>Schooling</span> <br>St.Joseph Matriculation Primary and Secondary School ,<br> Hosur. <br>Model Higher Secondary School , <br>Thally</li>
+                        <li><span>Degree</span> <br>BE Computer Science And Engineering  at <br>Adhiyamaan college of Engineering <br>Hosur</li>
+                                        </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------------------------SERVICES-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">  My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>UI/UX Designing</h2>
+                <p>
+                    I Value Simple Content Structure, Clean Design Patterns, and Thoughtful Interactions. <br><br>Things I Ejoy Designing : <br> <br>UX, UI, Web, Logos
+                </p>
+               
+            </div>
+            <div>
+                <i class="fa-thin fa-crop"></i>
+                <h2>Web Developement</h2>
+                <p>I LIke To Code Things From Scratch, and <br>Enjoy Bringing Ideas to life in the Browser <br><br>
+                Languages I use:
+            <br><br> Html, Css, Bootstrap, Tailwind Css, JavaScript, ReactJs . </p>
+              
+            </div>
+            <div>
+                <i class="fa-solid fa-hand-peace"></i>
+                <h2>Start a Project</h2>
+                <p>Interested in Working together ? <br>
+                We should queue up a time to chat . i will buy the coffee. </p>
+                <button class="btn btn2"><a href="#contact">Let's do this</a></button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-----------------------------------portfolii------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">  My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.webp" alt="">
+                <div class="layer">
+                    <h3>New Product Developement</h3>
+                    <p> I develop an idea for an entirely new product <br>or improve an existing product to meet new or evolving customers needs.!</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.webp" alt="">
+                <div class="layer">
+                    <h3>Web Developement</h3>
+                    <p>I LIke To Code Things From Scratch, and <br>Enjoy Bringing Ideas to life in the Browser <br><br>
+                        Languages I use:
+                    <br><br> Html, Css, Bootstrap, Tailwind Css, JavaScript, ReactJs . </p>
+                      
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpg" alt=""> 
+                <div class="layer">
+                    <h3>App Developement</h3>
+                    <p>I develope a App for both Android and ios with the help of flutter and dart frame work. I develope with evolving customers needs</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href=""class="btn">see more</a>
+    </div>
+</div>
+<!-----------------------------------container------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>www.letdo1@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9443417414</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mohammed-kaif-b98064230/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/princekaif101"><i class="fa-brands fa-twitter" ></i></a>
+                    <a href="https://www.instagram.com/princekaif10/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a class="btn btn2" href="cv.jpg " download>Download CV</a>
+            </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"> </textarea>
+                    <button class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <br>
+        <h2>Living, learning, & leveling  <br>up
+        one day at a time</h2><br>
+        <p>Copyright  &#169 2023. Made by <i class="fa-solid fa-heart"></i> Kaif <br>
+        </p>
+        <br>
+    </div>
+
+</div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }     
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+           }
+    </script>
+
+    <script>
+        var sidemeu =document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+        </script>
+      
+          
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw3WNlORky5VF0N6oRpDF1-FH6f8EI0Nxclex0j-jHIbBDvZsapK4sjZvf54W1-AB7t/exec'
+            const form = document.forms['submit-to-google-sheet']
+          const msg = document.getElementById('msg')
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML ="Message sent sucessfully"
+                    setTimeout(function(){
+                        msg.innerHTML =""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+          <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#element', {
+    strings: [' New Product Developer', 'App Developer','Web Developer'],
+    typeSpeed: 110,
+  });
+</script>
+</body>
+
+</html>
